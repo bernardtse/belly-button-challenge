@@ -34,20 +34,20 @@ d3.json(url).then(function(json_data) {
       mode: "gauge+number",
       value: metadata.wfreq,
       title: {text: "Belly Button Washing Frequency<br />Scrubs per Week"},
-              domain: { x: [0, 1], y: [0, 1] },
+              domain: {x: [0, 1], y: [0, 1]},
               gauge: {
-                axis: { range: [null, 9] },
-                bar: { color: "#FF0000" },
+                axis: {range: [null, 9]},
+                bar: {color: "#FF0000"},
                 steps: [
-                  { range: [0, 1], color: "#E8F8E8" },
-                  { range: [1, 2], color: "#CDE6C7" },
-                  { range: [2, 3], color: "#A8D7A1" },
-                  { range: [3, 4], color: "#8BC88A" },
-                  { range: [4, 5], color: "#76B17A" },
-                  { range: [5, 6], color: "#6B9F72" },
-                  { range: [6, 7], color: "#658D6C" },
-                  { range: [7, 8], color: "#5C7B66" },
-                  { range: [8, 9], color: "#546A60" }
+                  {range: [0, 1], color: "#E8F8E8"},
+                  {range: [1, 2], color: "#CDE6C7"},
+                  {range: [2, 3], color: "#A8D7A1"},
+                  {range: [3, 4], color: "#8BC88A"},
+                  {range: [4, 5], color: "#76B17A"},
+                  {range: [5, 6], color: "#6B9F72"},
+                  {range: [6, 7], color: "#658D6C"},
+                  {range: [7, 8], color: "#5C7B66"},
+                  {range: [8, 9], color: "#546A60"}
                 ],
               }
     }];
@@ -61,7 +61,7 @@ d3.json(url).then(function(json_data) {
   // Building Bar Chart
   function build_bar(sample) {
     // Sort Indices Based on sample_values in Descending Order
-    let indices = Array.from(Array(sample.sample_values.length).keys());
+    let indices = Array.from(Array(sample.sample_values.length).keys()); // Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from
     indices.sort((a, b) => sample.sample_values[b] - sample.sample_values[a]);
 
     // Take the top 10 indices and then reverse for display purpose
