@@ -2,24 +2,24 @@
 # Belly Button Biodiversity Dashboard
 
 ## Contents
-- [Overview](#overview)
-- [Repository](#repository)
-- [Deployment](#deployment)
-- [Resources](#resources)
+1. [Overview](#1-overview)
+2. [Repository](#2-repository)
+3. [Deployment](#3-deployment)
+4. [Resources](#4-resources)
 
-## Overview
+## 1. Overview
 The Belly Button Biodiversity Dashboard is an interactive visualisation tool designed to explore the Belly Button Biodiversity dataset. This dataset catalogues the microbes that colonise human navels. The study reveals that a small number of microbial species, known as operational taxonomic units (OTUs), are present in over 70% of individuals. However, the majority of species are relatively rare. 
 
 The dashboard allows users to analyse this microbial diversity through dynamic visualisations, including bar and bubble charts. It also displays demographic metadata associated with each sample. By enabling the selection and examination of individual samples, the project highlights the significance of microbial presence and variation within the human navel microbiome.
 
-## Repository
+## 2. Repository
 This project repository includes the following files:
 - **`index.html`**: The main HTML structure for the dashboard.
 - **`static/js/app.js`**: JavaScript file for data handling and visualisation.
 - **`samples.json`**: The dataset (referenced from a URL during runtime).
 - **`README.md`**: Documentation file for the project.
 
-## Deployment
+## 3. Deployment
 
 Method A:
 
@@ -38,7 +38,7 @@ The dashboard has been deployed to GitHub Pages and can be accessed here:
 2. Use the dropdown menu to select an individual sample.
 3. View the top 10 OTUs (bar chart), overall sample data (bubble chart), and demographic metadata.
 
-## Resources
+## 4. Resources
 ### Tools and Libraries
 - **D3.js**: Data loading and manipulation.
 - **Plotly.js**: Interactive chart generation.
