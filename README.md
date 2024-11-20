@@ -1,14 +1,58 @@
 # belly-button-challenge
+# Belly Button Biodiversity Dashboard
 
-### Files
-##### - index.html
-##### - samples.json (for reference only)
-##### - static/js/app.js
+## Contents
+- [Overview](#overview)
+- [Repository](#repository)
+- [Deployment](#deployment)
+- [Resources](#resources)
 
-### How to Run:
-#### Method A
-##### 1. Download All Files
-##### 2. Open index.html in the browser
+## Overview
+The **Belly Button Biodiversity Dashboard** is an interactive visualisation tool designed to explore the Belly Button Biodiversity dataset. This dataset catalogues the microbes that colonise human navels. The study reveals that a small number of microbial species, known as operational taxonomic units (OTUs), are present in over 70% of individuals. However, the majority of species are relatively rare. 
 
-#### Method B
-##### 1. Run index.html directly on: https://bernardtse.github.io/belly-button-challenge
+The dashboard allows users to analyse this microbial diversity through dynamic visualisations, including bar and bubble charts. It also displays demographic metadata associated with each sample. By enabling the selection and examination of individual samples, the project highlights the significance of microbial presence and variation within the human navel microbiome.
+
+## Repository
+This project repository includes the following files:
+- **`index.html`**: The main HTML structure for the dashboard.
+- **`static/js/app.js`**: JavaScript file for data handling and visualisation.
+- **`samples.json`**: The dataset (referenced from a URL during runtime).
+- **`README.md`**: Documentation file for the project.
+
+## Deployment
+
+Method A:
+
+1. Clone this repository to view the code:
+```
+git clone https://github.com/bernardtse/belly-button-challenge.git
+```
+2. Open index.html in your web browser of choice.
+
+Method B:
+
+The dashboard has been deployed to GitHub Pages and can be accessed here:
+- https://bernardtse.github.io/belly-button-challenge
+
+1. Visit the deployed link above.
+2. Use the dropdown menu to select an individual sample.
+3. View the top 10 OTUs (bar chart), overall sample data (bubble chart), and demographic metadata.
+
+## Resources
+### Tools and Libraries
+- **D3.js**: Data loading and manipulation.
+- **Plotly.js**: Interactive chart generation.
+- **GitHub Pages**: Hosting and deployment.
+
+### Features
+- **Bar Chart**: Displays the top 10 OTUs for the selected individual.
+- **Bubble Chart**: Visualises all OTUs with marker size and color indicating values.
+- **Demographic Metadata**: Displays key-value metadata for the selected individual.
+- **Interactivity**: Updates all visualisations dynamically based on user input.
+
+### References
+- [Plotly.js Documentation](https://plotly.com/javascript/)
+- [D3.js Documentation](https://d3js.org/)
+
+## Credits
+This project is part of the Module 14 Challenge for the Data Analytics program, leveraging the Belly Button Biodiversity dataset and incorporating interactive data visualisations.
