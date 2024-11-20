@@ -54,5 +54,5 @@ The dashboard has been deployed to GitHub Pages and can be accessed here:
 - [Plotly.js Documentation](https://plotly.com/javascript/)
 - [D3.js Documentation](https://d3js.org/)
 
-## Credits
+### Credits
 This project is part of the Module 14 Challenge for the Data Analytics program, leveraging the Belly Button Biodiversity dataset and incorporating interactive data visualisations.
