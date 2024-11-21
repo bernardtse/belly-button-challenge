@@ -1,4 +1,5 @@
-# belly-button-challenge - Belly Button Biodiversity Dashboard
+# belly-button-challenge
+Belly Button Biodiversity Web Dashboard
 
 ## Contents
 1. [Overview](#1-overview)
