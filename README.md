@@ -50,6 +50,8 @@ The dashboard has been deployed to GitHub Pages and can be accessed here:
 - **Demographic Metadata**: Displays key-value metadata for the selected individual.
 - **Interactivity**: Updates all visualisations dynamically based on user input.
 
+![Belly Button Biodiversity Web Dashboard](images/webviz_screenshot.png)
+
 ### References
 - [Plotly.js Documentation](https://plotly.com/javascript/)
 - [D3.js Documentation](https://d3js.org/)
