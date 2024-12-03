@@ -13,11 +13,11 @@ The Belly Button Biodiversity Dashboard is an interactive visualisation tool des
 The dashboard allows users to analyse this microbial diversity through dynamic visualisations, including bar and bubble charts. It also displays demographic metadata associated with each sample. By enabling the selection and examination of individual samples, this dashboard highlights the significance of microbial presence and variation within the human navel microbiome.
 
 ## 2. Repository
-This project repository includes the following files:
+This repository includes the following files:
 - **`index.html`**: The main HTML structure for the dashboard.
 - **`static/js/app.js`**: JavaScript file for data handling and visualisation.
 - **`resources/samples.json`**: The dataset (referenced from a URL during runtime).
-- **`README.md`**: Documentation file for the project.
+- **`README.md`**: Documentation file.
 
 ## 3. Deployment
 
@@ -57,4 +57,4 @@ The dashboard has been deployed to GitHub Pages and can be accessed here:
 - [D3.js Documentation](https://d3js.org/)
 
 ### Credits
-This project is part of the Module 14 Challenge for the Data Analytics program, leveraging the Belly Button Biodiversity dataset and incorporating interactive data visualisations.
+This dashboard is part of the Module 14 Challenge for the Data Analytics program, leveraging the Belly Button Biodiversity dataset and incorporating interactive data visualisations.
