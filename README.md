@@ -14,10 +14,10 @@ The dashboard allows users to analyse this microbial diversity through dynamic v
 
 ## 2. Repository
 This repository includes the following files:
-- **`index.html`**: The main HTML structure for the dashboard.
-- **`static/js/app.js`**: JavaScript file for data handling and visualisation.
-- **`resources/samples.json`**: The dataset (referenced from a URL during runtime).
-- **`README.md`**: Documentation file.
+- **`index.html`** - The main HTML structure for the dashboard
+- **`static/js/app.js`** - JavaScript file for data handling and visualisation
+- **`resources/samples.json`** - The dataset (referenced from a URL during runtime)
+- **`README.md`** - Documentation file
 
 ## 3. Deployment
 
